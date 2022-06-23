@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
    name: grafana
-   namespace: promtheus
+   namespace: prometheus
 spec:
    rules:
    - host: k8s.grafana
