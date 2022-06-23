@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: grafana-core
-  namespace: kube-system
+  namespace: promtheus
   labels:
     app: grafana
     component: core
