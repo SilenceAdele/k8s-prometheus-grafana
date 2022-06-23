@@ -5,7 +5,7 @@ metadata:
   labels:
     app: prometheus
   name: prometheus
-  namespace: promtheus
+  namespace: prometheus
 spec:
   type: NodePort
   ports:
