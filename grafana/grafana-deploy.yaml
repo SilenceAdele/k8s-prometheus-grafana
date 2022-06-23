@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: grafana-core
-  namespace: promtheus
+  namespace: prometheus
   labels:
     app: grafana
     component: core
