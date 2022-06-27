@@ -22,6 +22,10 @@ spec:
         - containerPort: 9100
           protocol: TCP
           name: http
+      tolerations: #添加容忍  监控maser节点
+      - key:  "node-role.kubernetes.io/master"
+        operator: "Exists"
+        effect: "NoSchedule"
 ---
 apiVersion: v1
 kind: Service
