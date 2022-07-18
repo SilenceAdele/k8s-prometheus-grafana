@@ -5,7 +5,7 @@ metadata:
   labels:
     app: prometheus
   name: prometheus
-  namespace: prometheus
+  namespace: zzy
 spec:
   type: NodePort
   ports:

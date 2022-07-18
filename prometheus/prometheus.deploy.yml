@@ -5,7 +5,7 @@ metadata:
   labels:
     name: prometheus-deployment
   name: prometheus
-  namespace: prometheus
+  namespace: zzy
 spec:
   replicas: 1
   selector:
